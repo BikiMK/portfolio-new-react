@@ -17,7 +17,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 
 ## Demo
 
-![Portfolio Demo](https://i.postimg.cc/Dfr5jCQp/Screenshot-2025-01-02-120901.png)
+![Portfolio Demo](https://i.postimg.cc/t4C8tWss/Screenshot-34.png)
 
 ---
 
@@ -150,9 +150,7 @@ You will need to download **Git** and **Node** to run this project.
 1. Click the **Fork** button at the top-right corner of the page to create your own copy of the repository.
 2. After forking, open your terminal and run the following commands to clone the repo:
 
-  ```bash
-  git clone https://github.com/seraprogrammer/portfolio.git
-  ```
+  
 Navigate to the Project Directory 📂
 Once the repository is cloned, change your directory to the project folder:
 ```bash

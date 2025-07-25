@@ -15,22 +15,22 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "Higher Secondary Education",
+      school: "Rishi Aurobindo High School",
       mascot: "📘",
       year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
+      achievements: ["GPA: 7", "Subject: Science"],
       skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
       description:
         "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "B.Tech in Electronics and Communication Engineering",
+      school: "JIS College of Engineering",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2023-2027",
+      achievements: ["GPA: 7.55(Current)", "Subject: ECE"],
+      skills: ["Signal & System", "Network Theory", "Core Electronics", "Control System"],
       description:
         "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
     },

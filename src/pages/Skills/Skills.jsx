@@ -2,24 +2,19 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe";
-import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
+import { Code2, Paintbrush, Database, Layout, Cpu, Brain } from "lucide-react";
 import {
   FaReact,
   FaNodeJs,
-  FaPython,
-  FaDocker,
+  FaJava,
   FaGitAlt,
   FaLinux,
   FaFigma,
-  FaAws,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
-  SiTypescript,
   SiTailwindcss,
-  SiPostgresql,
-  SiMongodb,
-  SiGraphql,
+  SiSupabase,
   SiJest,
   SiWebpack,
   SiRedux,
@@ -77,10 +72,6 @@ const SkillsSection = () => {
           icon: <SiNextdotjs className="w-4 h-4 text-white" />,
         },
         {
-          name: "TypeScript",
-          icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" />,
-        },
-        {
           name: "Tailwind CSS",
           icon: <SiTailwindcss className="w-4 h-4 text-[#38B2AC]" />,
         },
@@ -104,24 +95,16 @@ const SkillsSection = () => {
           icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
         },
         {
-          name: "Python",
-          icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
+          name: "Java",
+          icon: <FaJava className="w-4 h-4 text-[#007396]" />,
         },
         {
-          name: "PostgreSQL",
-          icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
-        },
-        {
-          name: "MongoDB",
-          icon: <SiMongodb className="w-4 h-4 text-[#47A248]" />,
+          name: "Supabase",
+          icon: <SiSupabase className="w-4 h-4 text-[#3ECF8E]" />,
         },
         {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
-        },
-        {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
         },
       ],
     },
@@ -135,33 +118,29 @@ const SkillsSection = () => {
           name: "Responsive Design",
           icon: <Layout className="w-4 h-4 text-[#38B2AC]" />,
         },
-        {
-          name: "Wireframing",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
-        },
-        {
-          name: "Prototyping",
-          icon: <MdAnimation className="w-4 h-4 text-[#F59E0B]" />,
-        },
       ],
     },
     {
-      icon: Cloud,
-      title: "Cloud & DevOps",
-      color: "text-orange-400",
+      icon: Brain,
+      title: "DSA",
+      color: "text-red-400",
       skills: [
-        { name: "AWS", icon: <FaAws className="w-4 h-4 text-[#FF9900]" /> },
         {
-          name: "Docker",
-          icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
+          name: "Java",
+          icon: <FaJava className="w-4 h-4 text-[#007396]" />,
         },
-        { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
         {
-          name: "Kubernetes",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" />,
+          name: "Algorithms",
+          icon: <Brain className="w-4 h-4 text-[#FF6B6B]" />,
         },
-        { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
-        { name: "Linux", icon: <FaLinux className="w-4 h-4 text-[#FCC624]" /> },
+        {
+          name: "Data Structures",
+          icon: <BsGrid1X2 className="w-4 h-4 text-[#4ECDC4]" />,
+        },
+        {
+          name: "Problem Solving",
+          icon: <Cpu className="w-4 h-4 text-[#45B7D1]" />,
+        },
       ],
     },
     {
@@ -185,6 +164,8 @@ const SkillsSection = () => {
         },
         { name: "Vercel", icon: <SiVercel className="w-4 h-4 text-white" /> },
         { name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" /> },
+        { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
+        { name: "Linux", icon: <FaLinux className="w-4 h-4 text-[#FCC624]" /> },
       ],
     },
     {

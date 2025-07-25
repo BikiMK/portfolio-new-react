@@ -5,45 +5,45 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Cure Nexus! A Doctors Appoinment Website",
     description:
       "A lightweight JavaScript library for creating beautiful, responsive UI components.",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    link: "https://i.postimg.cc/3JDzLY1T/Screenshot-36.png",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/BikiMK/Doctors-appoinment",
+    // liveLink: "https://olova.js.org/",
   },
   {
     title: "A sleek portfolio built with React and Tailwind CSS ",
     description:
       "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "https://i.postimg.cc/t4C8tWss/Screenshot-34.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "#",
+    liveLink: "#",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "🚀 MySocial",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "A modern social media platform built with React and Tailwind CSS, offering real-time messaging, stories, sleek UI, and seamless user interaction to connect and share effortlessly! 📱✨",
     src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+    link: "https://i.postimg.cc/XNtwgbXd/Screenshot-35.png",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    githubLink: "https://github.com/BikiMK/Social-media-UI-Interface",
+    liveLink: "https://bikimk.github.io/Social-media-UI-Interface/",
   },
-  {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-    color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
-  },
+  // {
+  //   title: "CodeKori 🔥",
+  //   description:
+  //     "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+  //   src: "house.jpg",
+  //   link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+  //   color: "#ed649e",
+  //   githubLink: "https://github.com/seraprogrammer/CodeKori",
+  //   liveLink: "https://codekori.js.org",
+  // },
 ];
 
 export default function Projects() {
