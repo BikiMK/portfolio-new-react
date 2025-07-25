@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Cure Nexus! A Doctors Appoinment Website",
+    title: "Cure Nexus! A Doctor's Appoinment Website",
     description:
       "A lightweight JavaScript library for creating beautiful, responsive UI components.",
     src: "rock.jpg",

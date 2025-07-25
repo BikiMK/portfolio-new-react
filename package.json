@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://BikiMK.github.io/portfolio-new-react",
+  "homepage": "https://bikimk.github.io/portfolio-new-react",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
