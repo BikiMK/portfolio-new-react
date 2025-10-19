@@ -1,7 +1,7 @@
 import React from "react";
-import { Layers } from "lucide-react";
+import { Layers, FileText } from "lucide-react";
 
-const ExperienceCard = ({ title, company, companyLink, period, description, icon: Icon }) => {
+const ExperienceCard = ({ title, company, companyLink, offerLink, period, description, icon: Icon }) => {
   const descriptionLines = description
     .split("•")
     .map((line) => line.trim())
@@ -28,20 +28,36 @@ const ExperienceCard = ({ title, company, companyLink, period, description, icon
             {title}
           </h3>
 
-          {/* Company and Period */}
-          <div className="flex justify-between items-center text-gray-300">
-            {companyLink ? (
-              <a
-                href={companyLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-semibold text-blue-400 hover:text-cyan-300 transition-colors duration-300 underline decoration-blue-400/50 hover:decoration-cyan-400/70"
-              >
-                {company}
-              </a>
-            ) : (
-              <span className="font-semibold text-blue-400">{company}</span>
-            )}
+          {/* Company, offer link, and period */}
+          <div className="flex justify-between items-center text-gray-300 flex-wrap gap-2">
+            <div className="flex items-center gap-3">
+              {companyLink ? (
+                <a
+                  href={companyLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-blue-400 hover:text-cyan-300 transition-colors duration-300 underline decoration-blue-400/50 hover:decoration-cyan-400/70"
+                >
+                  {company}
+                </a>
+              ) : (
+                <span className="font-semibold text-blue-400">{company}</span>
+              )}
+
+              {/* Offer letter link beside company */}
+              {offerLink && (
+                <a
+                  href={offerLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-sm text-cyan-400 hover:text-blue-300 transition-colors duration-300"
+                >
+                  <FileText className="w-4 h-4" />
+                  <span className="underline decoration-cyan-400/50 hover:decoration-blue-400/70">Offer Letter</span>
+                </a>
+              )}
+            </div>
+
             <span className="text-sm font-mono bg-blue-500/10 px-3 py-1 rounded-full">
               {period}
             </span>
@@ -79,6 +95,8 @@ const ExperienceSection = () => {
       title: "Web Development Tech Intern",
       company: "Codaphics",
       companyLink: "https://www.codaphics.com/en-GB/",
+      offerLink:
+        "https://drive.google.com/file/d/1lDOPryydAyy25-As81xEv7xuWSCNUO-D/view?usp=sharing",
       period: "2025 - Present",
       description: `
         • Assist in developing and maintaining web applications
